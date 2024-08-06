@@ -5,11 +5,11 @@ jobs:
   Test-GithubActions:
     runs-on: ubuntu-latest
     steps:
-      -run: echo "Hello World"
-      -name: Checkout code from repo
-      uses: actions/checkout@v4
-      -run: |
+      - run: echo "Hello World"
+      - name: Checkout code from repo
+      - uses: actions/checkout@v4
+      - run: |
           ls ${{github.workspace}}
-      -run: echo "Sarah Agemo & Valentine Kiguli"
-      -run: echo "We are done"
+      - run: echo "Sarah Agemo & Valentine Kiguli"
+      - run: echo "We are done"
       
