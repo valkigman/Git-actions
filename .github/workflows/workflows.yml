@@ -1,0 +1,10 @@
+name: Room 10 Demo
+run-name: Testing Github Actions
+on: [push]
+jobs:
+  Test-GithubActions:
+    runs-on: ubuntu-latest
+    steps:
+      -run: echo "Hello World"
+      -run: echo "Sarah Agemo & Valentine Kiguli"
+      -run: echo "We are done"
