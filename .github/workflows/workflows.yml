@@ -7,7 +7,7 @@ jobs:
     steps:
       - run: echo "Hello World"
       - name: Checkout code from repo
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
       - run: |
           ls ${{github.workspace}}
       - run: echo "Sarah Agemo & Valentine Kiguli"
